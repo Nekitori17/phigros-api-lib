@@ -1,0 +1,2772 @@
+{
+  "Introduction.姜米條ElousΛFZ": {
+    "sub_id": "Introduction.姜米條ElousΛFZ",
+    "constant": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "Introduction250.姜米條ElousΛFZ": {
+    "sub_id": "Introduction250301.姜米條ElousΛFZ",
+    "constant": [
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "Introduction200.姜米條ElousΛFZ": {
+    "sub_id": "Introduction200247.姜米條ElousΛFZ",
+    "constant": [
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "Introduction100.姜米條": {
+    "sub_id": "Introduction1001611.姜米條",
+    "constant": [
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "Glaciaxion.SunsetRay": {
+    "sub_id": "",
+    "constant": [
+      1.0,
+      6.5,
+      12.5,
+      0.0,
+      11.2
+    ]
+  },
+  "EradicationCatastrophe.NceS": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      7.5,
+      12.7,
+      0.0,
+      11.6
+    ]
+  },
+  "Credits.Frums": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      10.4,
+      13.7,
+      15.5,
+      0.0
+    ]
+  },
+  "Dlyrotz.Likey": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      9.4,
+      13.7,
+      0.0,
+      14.6
+    ]
+  },
+  "EnginexStartmelodymix.CrossingSound": {
+    "sub_id": "EnginexStartmelodymix.CrossingSound",
+    "constant": [
+      2.5,
+      8.6,
+      13.4,
+      0.0,
+      15.2
+    ]
+  },
+  "光.姜米條": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      7.5,
+      12.8,
+      0.0,
+      13.8
+    ]
+  },
+  "Wintercube.CtymaxfeatNceS": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      8.2,
+      13.4,
+      0.0,
+      13.4
+    ]
+  },
+  "混乱Confusion.OnlyMyBlackScore": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      10.6,
+      14.8,
+      0.0,
+      13.9
+    ]
+  },
+  "Cipher.TetrajectoryfeatCtymax": {
+    "sub_id": "Cipher20.TetrajectoryfeatCtymax",
+    "constant": [
+      5.5,
+      9.7,
+      14.4,
+      0.0,
+      14.7
+    ]
+  },
+  "FULiAUTOSHOOTER.MYUKKE": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      9.4,
+      14.8,
+      0.0,
+      0.0
+    ]
+  },
+  "WintercubeOriginalmix.CtymaxfeatNceS": {
+    "sub_id": "",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "HumaN.SOTUI": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      8.1,
+      12.9,
+      0.0,
+      12.9
+    ]
+  },
+  "PRAW.BlueWind": {
+    "sub_id": "PRAW.BlueWind",
+    "constant": [
+      6.0,
+      10.6,
+      15.1,
+      0.0,
+      13.9
+    ]
+  },
+  "Cereris.SunsetRayNceS": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      10.9,
+      14.8,
+      0.0,
+      0.0
+    ]
+  },
+  "PixelRebelz.Normal1zer": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      10.3,
+      15.1,
+      0.0,
+      14.6
+    ]
+  },
+  "NonMelodicRagezMUGEdit.Normal1zer": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      11.8,
+      15.7,
+      0.0,
+      15.8
+    ]
+  },
+  "SultanRage.MonstDeath": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      7.0,
+      12.3,
+      0.0,
+      0.0
+    ]
+  },
+  "ClassMemories.AntistarfeatCtymax": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      10.4,
+      13.8,
+      0.0,
+      0.0
+    ]
+  },
+  "SURREALISM.Itsuki": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      9.4,
+      13.4,
+      0.0,
+      0.0
+    ]
+  },
+  "BonusTime.MegaloPaleWhite": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      9.5,
+      14.2,
+      0.0,
+      13.5
+    ]
+  },
+  "ENERGYSYNERGYMATRIX.Tanchiky": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      11.5,
+      14.4,
+      0.0,
+      14.8
+    ]
+  },
+  "NYA.FLuoRiTe姜米條": {
+    "sub_id": "NYAPhigrosver.FLuoRiTe姜米條",
+    "constant": [
+      2.0,
+      8.6,
+      13.1,
+      0.0,
+      0.0
+    ]
+  },
+  "JunXionBetweenLifeAndDeathVIPMix.1N6FS": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      8.7,
+      13.3,
+      0.0,
+      0.0
+    ]
+  },
+  "Cryout.JuE": {
+    "sub_id": "cryout.JuE",
+    "constant": [
+      4.5,
+      9.9,
+      13.8,
+      0.0,
+      0.0
+    ]
+  },
+  "Reimei.影虎": {
+    "sub_id": "",
+    "constant": [
+      7.0,
+      11.9,
+      15.1,
+      0.0,
+      0.0
+    ]
+  },
+  "尊師TheGuru.rider": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      11.6,
+      15.2,
+      0.0,
+      0.0
+    ]
+  },
+  "Spasmodic.姜米條颶風元力上人": {
+    "sub_id": "",
+    "constant": [
+      8.2,
+      13.3,
+      15.2,
+      16.3,
+      0.0
+    ]
+  },
+  "LeaveAllBehind.rider": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      8.9,
+      12.7,
+      0.0,
+      0.0
+    ]
+  },
+  "ColorfulDays.P4koofeatつゆり花鈴": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      7.0,
+      12.7,
+      0.0,
+      0.0
+    ]
+  },
+  "Microwav.dandeless": {
+    "sub_id": "microwav.dandeless",
+    "constant": [
+      6.0,
+      10.7,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "重生.姜米條": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      8.8,
+      14.4,
+      0.0,
+      0.0
+    ]
+  },
+  "NOONEYESMAN.MYUKKE": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      10.9,
+      15.4,
+      0.0,
+      0.0
+    ]
+  },
+  "望影の方舟Six.SeURa": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      12.1,
+      15.7,
+      0.0,
+      0.0
+    ]
+  },
+  "Igallta.SeURa": {
+    "sub_id": "",
+    "constant": [
+      7.5,
+      12.7,
+      15.7,
+      16.7,
+      0.0
+    ]
+  },
+  "ClockParadox.WyvernP": {
+    "sub_id": "",
+    "constant": [
+      2.5,
+      6.0,
+      12.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Chronologika.Hundotte": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      9.8,
+      13.8,
+      0.0,
+      0.0
+    ]
+  },
+  "NickofTime.P4koo": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      8.1,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Chronomia.Lime": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      11.1,
+      15.3,
+      0.0,
+      0.0
+    ]
+  },
+  "ChronosCollapseLaCampanella.SunsetRay": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      11.5,
+      15.9,
+      0.0,
+      0.0
+    ]
+  },
+  "Rrharil.TeamGrimoire": {
+    "sub_id": "Rrharil.TeamGrimoire",
+    "constant": [
+      7.0,
+      12.7,
+      15.7,
+      16.8,
+      0.0
+    ]
+  },
+  "CraveWave.LandRoot": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      8.4,
+      13.6,
+      0.0,
+      0.0
+    ]
+  },
+  "TheChariotREVIIVAL.Attoclef": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      9.5,
+      14.1,
+      0.0,
+      0.0
+    ]
+  },
+  "Luminescence.米虾Fomiki初云CLoudie": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      11.2,
+      14.5,
+      0.0,
+      0.0
+    ]
+  },
+  "Retribution.nmyKryexe": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      11.6,
+      15.8,
+      0.0,
+      0.0
+    ]
+  },
+  "DESTRUCTION321.Normal1zervsBrokenNerdz": {
+    "sub_id": "",
+    "constant": [
+      8.5,
+      13.1,
+      15.8,
+      16.6,
+      0.0
+    ]
+  },
+  "DistortedFate.Sakuzyo": {
+    "sub_id": "",
+    "constant": [
+      8.1,
+      13.5,
+      15.9,
+      16.7,
+      0.0
+    ]
+  },
+  "Ποσειδών.1112vsStar": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      8.4,
+      12.8,
+      0.0,
+      0.0
+    ]
+  },
+  "WATER.A39沙包P": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      9.4,
+      13.6,
+      0.0,
+      0.0
+    ]
+  },
+  "MiracleForestVIPMix.Rinthlive": {
+    "sub_id": "",
+    "constant": [
+      2.5,
+      7.5,
+      13.1,
+      0.0,
+      14.0
+    ]
+  },
+  "MOBILYS.Dachs": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      9.7,
+      14.4,
+      0.0,
+      0.0
+    ]
+  },
+  "Lyrith迷宮リリス.ユメミド": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      11.6,
+      15.8,
+      16.2,
+      15.9
+    ]
+  },
+  "XING.ginkiha": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      9.9,
+      13.9,
+      0.0,
+      0.0
+    ]
+  },
+  "FinalStep.Lime": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      11.8,
+      14.3,
+      0.0,
+      0.0
+    ]
+  },
+  "Cthugha.USAO": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      10.8,
+      15.6,
+      15.8,
+      0.0
+    ]
+  },
+  "Initialize.iF": {
+    "sub_id": "",
+    "constant": [
+      2.5,
+      7.0,
+      11.6,
+      0.0,
+      0.0
+    ]
+  },
+  "桜樹街道.kozatosnow": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      7.5,
+      13.4,
+      0.0,
+      0.0
+    ]
+  },
+  "GetReady.iF": {
+    "sub_id": "GetReady.iF",
+    "constant": [
+      5.0,
+      10.2,
+      13.8,
+      0.0,
+      0.0
+    ]
+  },
+  "Volcanic.DETROakaルゼ": {
+    "sub_id": "volcanic.DETROakaルゼ",
+    "constant": [
+      7.5,
+      11.9,
+      14.6,
+      16.2,
+      0.0
+    ]
+  },
+  "GOODTEK.EBIMAYO": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      10.8,
+      14.1,
+      0.0,
+      0.0
+    ]
+  },
+  "GOODBOUNCE.EBIMAYO": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      11.6,
+      14.4,
+      0.0,
+      0.0
+    ]
+  },
+  "GOODWORLD.EBIMAYO": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      11.4,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "GOODFORTUNE.EBIMAYO": {
+    "sub_id": "",
+    "constant": [
+      7.5,
+      8.7,
+      15.4,
+      0.0,
+      0.0
+    ]
+  },
+  "GOODRAGE.EBIMAYO": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      8.2,
+      15.7,
+      0.0,
+      0.0
+    ]
+  },
+  "InfinityHeaven.HyuN": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      8.4,
+      13.9,
+      0.0,
+      0.0
+    ]
+  },
+  "Disorder.HyuNfeatYURI": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      9.8,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "CROSSSOUL.HyuNfeatSyepias": {
+    "sub_id": "",
+    "constant": [
+      7.5,
+      12.8,
+      15.9,
+      0.0,
+      0.0
+    ]
+  },
+  "AnotherMeNeutralMoon.NeutralMoon": {
+    "sub_id": "AnotherMe.NeutralMoon",
+    "constant": [
+      5.5,
+      9.2,
+      13.6,
+      0.0,
+      13.2
+    ]
+  },
+  "Mechanted.rareguy": {
+    "sub_id": "mechanted.rareguy",
+    "constant": [
+      2.5,
+      11.3,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "Lifeflashesbeforeweebeyes.BilliumMoto": {
+    "sub_id": "lifeflashesbeforeweebeyes.BilliumMoto",
+    "constant": [
+      6.5,
+      11.9,
+      14.8,
+      0.0,
+      0.0
+    ]
+  },
+  "BreakThroughTheBarrier.lixound": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      10.1,
+      14.5,
+      0.0,
+      15.0
+    ]
+  },
+  "Chronostasis.黒皇帝": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      11.2,
+      15.8,
+      0.0,
+      0.0
+    ]
+  },
+  "Doppelganger.LeaF": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      9.8,
+      14.8,
+      0.0,
+      13.3
+    ]
+  },
+  "もぺもぺ.LeaF": {
+    "sub_id": "",
+    "constant": [
+      2.0,
+      6.5,
+      11.1,
+      14.9,
+      0.0
+    ]
+  },
+  "MARENOL.LeaF": {
+    "sub_id": "",
+    "constant": [
+      2.0,
+      10.2,
+      14.2,
+      0.0,
+      14.5
+    ]
+  },
+  "萤火虫の怨.闫东炜": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      10.6,
+      13.1,
+      0.0,
+      13.4
+    ]
+  },
+  "万吨匿名信.闫东炜": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      9.7,
+      13.3,
+      0.0,
+      13.6
+    ]
+  },
+  "风屿.闫东炜": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      10.3,
+      13.9,
+      14.8,
+      0.0
+    ]
+  },
+  "DBdoll.YUESTEVENuen": {
+    "sub_id": "dBdoll.YUESTEVENuen",
+    "constant": [
+      1.5,
+      3.5,
+      8.3,
+      13.6,
+      0.0
+    ]
+  },
+  "Dash.小红Akane李祥晖": {
+    "sub_id": "",
+    "constant": [
+      2.5,
+      5.5,
+      9.7,
+      0.0,
+      11.7
+    ]
+  },
+  "云女孩.符白牙SiYFics": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      9.9,
+      12.6,
+      0.0,
+      12.8
+    ]
+  },
+  "DropIt.Asuka": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      9.6,
+      14.3,
+      0.0,
+      14.4
+    ]
+  },
+  "RIPPER.Friedwav": {
+    "sub_id": "",
+    "constant": [
+      7.5,
+      11.2,
+      15.2,
+      0.0,
+      15.7
+    ]
+  },
+  "Aphasia.闫东炜": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      8.8,
+      13.1,
+      0.0,
+      0.0
+    ]
+  },
+  "开心病.闫东炜": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      11.5,
+      14.2,
+      0.0,
+      13.7
+    ]
+  },
+  "華灯爱.闫东炜": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      10.5,
+      14.1,
+      0.0,
+      13.8
+    ]
+  },
+  "FindMe.KForest": {
+    "sub_id": "FindMe.KForest",
+    "constant": [
+      5.5,
+      10.5,
+      14.4,
+      0.0,
+      0.0
+    ]
+  },
+  "Sein.朔Apo11oprogramvsお月さま交響曲ftkuroax荒巻": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      9.8,
+      14.9,
+      0.0,
+      0.0
+    ]
+  },
+  "狂喜蘭舞.LeaF": {
+    "sub_id": "",
+    "constant": [
+      7.0,
+      11.7,
+      14.5,
+      16.1,
+      14.4
+    ]
+  },
+  "SparkleNewLife.rider": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      9.2,
+      12.8,
+      0.0,
+      0.0
+    ]
+  },
+  "KhronostasisKatharsis.Halv": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      11.6,
+      14.2,
+      0.0,
+      14.7
+    ]
+  },
+  "SnowDesert.WyvernP": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      10.3,
+      13.3,
+      0.0,
+      13.6
+    ]
+  },
+  "Burn.NceS": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      10.6,
+      14.9,
+      0.0,
+      0.0
+    ]
+  },
+  "Christmas.姜米條": {
+    "sub_id": "",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "Aleph0.LeaF": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      12.2,
+      15.7,
+      0.0,
+      15.0
+    ]
+  },
+  "NextTime.SaMZIng": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      9.2,
+      12.6,
+      0.0,
+      0.0
+    ]
+  },
+  "RubbishSorting.CtymaxvsNceS": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      9.4,
+      13.2,
+      0.0,
+      0.0
+    ]
+  },
+  "DeadSoul.SoundSouler": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      11.7,
+      14.4,
+      0.0,
+      0.0
+    ]
+  },
+  "DeadSoulHidden.SoundSouler": {
+    "sub_id": "DeadSoul.SoundSouler",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "もぺもぺHidden.LeaF": {
+    "sub_id": "もぺもぺ.LeaF",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "BurnHaocoreMix.NceSDaily天利": {
+    "sub_id": "",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "RubbishSortingHidden.CtymaxvsNceS": {
+    "sub_id": "RubbishSorting.CtymaxvsNceS",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "SpeedUp.DarTokki": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      10.3,
+      14.3,
+      0.0,
+      0.0
+    ]
+  },
+  "MagentaPotion.EmoCo": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      11.3,
+      14.5,
+      0.0,
+      0.0
+    ]
+  },
+  "GetBack.CAP3": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      11.4,
+      14.1,
+      0.0,
+      0.0
+    ]
+  },
+  "Palescreen.WyvernPfeatMadol": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      12.3,
+      15.7,
+      0.0,
+      0.0
+    ]
+  },
+  "TheMountainEater.PaulBazooka": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      9.1,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Orthodox.tokiwa": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      10.6,
+      14.1,
+      0.0,
+      0.0
+    ]
+  },
+  "EndMe.ZxNXasDelaina": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      7.5,
+      14.1,
+      0.0,
+      0.0
+    ]
+  },
+  "ParallelRetrogressionGameVer.Tetrajectory": {
+    "sub_id": "",
+    "constant": [
+      7.0,
+      10.7,
+      14.4,
+      0.0,
+      0.0
+    ]
+  },
+  "Starduster.Quree": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      11.4,
+      15.1,
+      0.0,
+      0.0
+    ]
+  },
+  "Electron.ElousΛFZ": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      10.4,
+      13.2,
+      0.0,
+      0.0
+    ]
+  },
+  "SIGMA.Kryexe": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      11.5,
+      15.6,
+      0.0,
+      0.0
+    ]
+  },
+  "HardcoreKwaya.EnFr": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      8.5,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Äventyr.GrandThawRigëlTheatre": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      9.4,
+      13.7,
+      0.0,
+      0.0
+    ]
+  },
+  "Träne.MALVA": {
+    "sub_id": "",
+    "constant": [
+      1.5,
+      6.5,
+      14.2,
+      0.0,
+      0.0
+    ]
+  },
+  "雪降りメリクリ.A39": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      10.4,
+      15.3,
+      0.0,
+      0.0
+    ]
+  },
+  "CervelleConnexion.SCTL": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      11.3,
+      14.5,
+      0.0,
+      0.0
+    ]
+  },
+  "Modulus.PTB10": {
+    "sub_id": "modulus.PTB10",
+    "constant": [
+      3.5,
+      10.1,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "Shadow.姜米條SumaiLight": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      10.3,
+      14.5,
+      15.9,
+      0.0
+    ]
+  },
+  "Anomaly.姜米條RocketLant": {
+    "sub_id": "",
+    "constant": [
+      7.5,
+      7.9,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Destination.姜米條RocketLant": {
+    "sub_id": "",
+    "constant": [
+      3.6,
+      9.4,
+      13.6,
+      15.4,
+      0.0
+    ]
+  },
+  "Wavetapper.Frums": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      9.4,
+      13.9,
+      0.0,
+      0.0
+    ]
+  },
+  "WavetapperHidden.Frums": {
+    "sub_id": "WaveTapper.Frums",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "SpasmodicHaocoreMix.姜米條天利": {
+    "sub_id": "",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "大和撫子WildDances.adaptorvsDRIVE": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      11.8,
+      14.8,
+      0.0,
+      0.0
+    ]
+  },
+  "Eltaw.Fl00t": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      10.5,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "BetterGraphicAnimation.ルゼ": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      11.7,
+      15.3,
+      0.0,
+      0.0
+    ]
+  },
+  "WithYou.Cashew": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      9.3,
+      13.4,
+      0.0,
+      0.0
+    ]
+  },
+  "UnorthodoxThoughts.Joulez": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      11.3,
+      13.9,
+      0.0,
+      0.0
+    ]
+  },
+  "Apocalyptic.ZClaxXSumaiLight": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      9.6,
+      13.8,
+      0.0,
+      0.0
+    ]
+  },
+  "游园地.椒盐菠萝": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      7.5,
+      13.2,
+      0.0,
+      0.0
+    ]
+  },
+  "Energytrixxx.KAH": {
+    "sub_id": "energytrixxx.KAH",
+    "constant": [
+      4.5,
+      11.4,
+      15.2,
+      0.0,
+      0.0
+    ]
+  },
+  "Nhelv.Silentroom": {
+    "sub_id": "",
+    "constant": [
+      1.5,
+      11.9,
+      15.4,
+      0.0,
+      0.0
+    ]
+  },
+  "Arkhei.SeraAmagi": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      9.7,
+      12.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Kerberos.Zris": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      12.4,
+      15.5,
+      0.0,
+      0.0
+    ]
+  },
+  "Parsley.siqlo": {
+    "sub_id": "ρarsey.siqlo",
+    "constant": [
+      4.0,
+      11.3,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "TimetoNightSkyfeatLeeYuJin.HyuNKLYDIX": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      10.1,
+      13.6,
+      0.0,
+      0.0
+    ]
+  },
+  "HAZARD.Limpid": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      10.9,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "AnotherMeDAAN.DAAN": {
+    "sub_id": "AnotherMe.DAAN",
+    "constant": [
+      5.0,
+      9.2,
+      15.4,
+      0.0,
+      0.0
+    ]
+  },
+  "DontNeverAround.HAMA": {
+    "sub_id": "DontNeverAround.HAMA",
+    "constant": [
+      4.5,
+      11.7,
+      15.4,
+      0.0,
+      0.0
+    ]
+  },
+  "RESSiSTANCE.ぐるたみん": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      10.6,
+      15.8,
+      0.0,
+      0.0
+    ]
+  },
+  "Concvssion.Halv": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      11.3,
+      15.5,
+      0.0,
+      0.0
+    ]
+  },
+  "ジングルベルJingleBell.A39沙包P": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      8.3,
+      14.5,
+      0.0,
+      0.0
+    ]
+  },
+  "Dreamland.z1onkyrrin": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      9.8,
+      13.2,
+      0.0,
+      0.0
+    ]
+  },
+  "AnotherRound.JustinDai": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      8.7,
+      13.3,
+      0.0,
+      0.0
+    ]
+  },
+  "996.李化禹": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      9.1,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "FutureMind.RayNauticaRekuMochizuki": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      11.7,
+      14.4,
+      0.0,
+      0.0
+    ]
+  },
+  "Luminescent.Daison": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      9.3,
+      14.5,
+      0.0,
+      0.0
+    ]
+  },
+  "Demiurge.Rabpit": {
+    "sub_id": "",
+    "constant": [
+      1.5,
+      7.5,
+      11.8,
+      0.0,
+      0.0
+    ]
+  },
+  "SigmaHaocoreMixRegretsoftheYellowTulip.Kryexe天利": {
+    "sub_id": "",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "SigmaHaocoreMix105秒の伝説.Kryexe天利": {
+    "sub_id": "",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "HAZARDHidden.Limpid": {
+    "sub_id": "HAZARD.Limpid",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "FULiAUTOBUSTER.MYUKKE": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      9.3,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "Demonkin.ForgedReigns": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      9.4,
+      13.8,
+      0.0,
+      0.0
+    ]
+  },
+  "ReNascencePsystyleVer.Rinthlive": {
+    "sub_id": "ReNascencePsystyleVer.Rinthlive",
+    "constant": [
+      4.5,
+      11.4,
+      14.3,
+      0.0,
+      0.0
+    ]
+  },
+  "Ark.kanoryo": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      9.5,
+      15.1,
+      0.0,
+      0.0
+    ]
+  },
+  "AfterDawn.S9ryne": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      10.4,
+      15.3,
+      0.0,
+      0.0
+    ]
+  },
+  "INFiNiTEENERZYOverdoze.RekuMochizuki": {
+    "sub_id": "",
+    "constant": [
+      7.5,
+      12.4,
+      14.7,
+      16.3,
+      0.0
+    ]
+  },
+  "IMustSayNo.TangJuan": {
+    "sub_id": "",
+    "constant": [
+      2.5,
+      9.5,
+      13.5,
+      0.0,
+      0.0
+    ]
+  },
+  "Opia.rN": {
+    "sub_id": "opia.rN",
+    "constant": [
+      5.5,
+      11.6,
+      15.5,
+      0.0,
+      0.0
+    ]
+  },
+  "Apocalypse.アリスシャッハと魔法の楽団": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      8.6,
+      13.5,
+      0.0,
+      0.0
+    ]
+  },
+  "Protoflicker.Silentroom": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      10.6,
+      15.2,
+      0.0,
+      0.0
+    ]
+  },
+  "HorizonBlue.NothingButRequiemfeatAikapinChiyoko": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      12.2,
+      15.5,
+      0.0,
+      0.0
+    ]
+  },
+  "YouAreTheMiserable.tpazolite": {
+    "sub_id": "YouaretheMiserable.tpazolite",
+    "constant": [
+      6.0,
+      11.7,
+      14.2,
+      15.6,
+      0.0
+    ]
+  },
+  "Stasis.Maozon": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      11.1,
+      15.3,
+      16.4,
+      0.0
+    ]
+  },
+  "いざ参ります.Uskefeat棗いつき": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      9.6,
+      14.8,
+      0.0,
+      0.0
+    ]
+  },
+  "月下缭乱.月見静華vsLUNARiUM": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      9.4,
+      14.8,
+      0.0,
+      0.0
+    ]
+  },
+  "OnAndOn.ETIAfeatJenga": {
+    "sub_id": "OnAndOn.ETIAfeatJenga",
+    "constant": [
+      5.0,
+      10.3,
+      14.9,
+      0.0,
+      0.0
+    ]
+  },
+  "心之所向.姜米條": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      8.9,
+      13.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Inferior.姜米條": {
+    "sub_id": "inferior.姜米條",
+    "constant": [
+      7.0,
+      7.5,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "DataErr0r.Cosmograph": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      11.6,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Csqn.Aoi": {
+    "sub_id": "csqn.Aoi",
+    "constant": [
+      5.0,
+      12.5,
+      15.7,
+      0.0,
+      0.0
+    ]
+  },
+  "BraveNotes.TurquoiseDRIVENota": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      11.4,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "盏茗.茶鸣拾贰律": {
+    "sub_id": "",
+    "constant": [
+      2.0,
+      4.5,
+      13.3,
+      0.0,
+      0.0
+    ]
+  },
+  "青芽.茶鸣拾贰律": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      10.8,
+      14.9,
+      0.0,
+      0.0
+    ]
+  },
+  "EternalSnow.AbyssIdols": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      8.8,
+      13.5,
+      0.0,
+      0.0
+    ]
+  },
+  "RainySeason.AbyssIdols": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      10.7,
+      14.4,
+      0.0,
+      0.0
+    ]
+  },
+  "ElCondorPasaPhigrosEdit.PlasticFruits": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      12.5,
+      15.4,
+      0.0,
+      0.0
+    ]
+  },
+  "BreakOver.KForest": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      11.8,
+      14.1,
+      14.9,
+      0.0
+    ]
+  },
+  "BelieveLightfeat果丸哒呦.ScalerMestie果丸哒呦": {
+    "sub_id": "",
+    "constant": [
+      2.5,
+      9.5,
+      14.5,
+      0.0,
+      0.0
+    ]
+  },
+  "Pontdessouvenirs.VeetaCrushvsitsufeatitsu": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      10.7,
+      15.1,
+      0.0,
+      0.0
+    ]
+  },
+  "青丘.BLACK0": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      10.5,
+      15.3,
+      0.0,
+      0.0
+    ]
+  },
+  "瓷岁.茶鸣拾贰律": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      6.5,
+      7.0,
+      0.0,
+      0.0
+    ]
+  },
+  "Feast远东之宴.茶鸣拾贰律": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      11.9,
+      15.3,
+      0.0,
+      0.0
+    ]
+  },
+  "インフェルノシティ.Ponchifeatはぁち": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      11.2,
+      15.5,
+      0.0,
+      0.0
+    ]
+  },
+  "PoisonANDORAffection.LeaF": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      9.6,
+      15.5,
+      0.0,
+      0.0
+    ]
+  },
+  "Upshift.IrissFrantzz": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      10.8,
+      15.4,
+      0.0,
+      0.0
+    ]
+  },
+  "Random.SobremXSilentroom": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      12.2,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "RandomR.SobremXSilentroom": {
+    "sub_id": "RandomRAltFutur.SobremXSilentroom",
+    "constant": [
+      6.0,
+      12.2,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "RandomA.SobremXSilentroom": {
+    "sub_id": "RandomA2anyfirst.SobremXSilentroom",
+    "constant": [
+      6.0,
+      12.2,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "RandomN.SobremXSilentroom": {
+    "sub_id": "RandomNJustSayIt.SobremXSilentroom",
+    "constant": [
+      6.0,
+      12.2,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "RandomD.SobremXSilentroom": {
+    "sub_id": "RandomDShannonsTheorem.SobremXSilentroom",
+    "constant": [
+      6.0,
+      12.2,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "RandomO.SobremXSilentroom": {
+    "sub_id": "RandomOIMPLEXROUGH.SobremXSilentroom",
+    "constant": [
+      6.0,
+      12.2,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "RandomM.SobremXSilentroom": {
+    "sub_id": "RandomMLASTMORN.SobremXSilentroom",
+    "constant": [
+      6.0,
+      12.2,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "零號車輛.seatrus": {
+    "sub_id": "",
+    "constant": [
+      7.0,
+      12.3,
+      15.8,
+      0.0,
+      0.0
+    ]
+  },
+  "今年も雪降りメリクリ目指して頑張ります.AiSSvs华牧狸w夜輪ft結月ゆかり": {
+    "sub_id": "",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "NowIsTheTimeDoIt.RoyMikelate": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      10.7,
+      14.3,
+      0.0,
+      0.0
+    ]
+  },
+  "Bougainvillea.Jade": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      8.3,
+      13.2,
+      0.0,
+      0.0
+    ]
+  },
+  "神話.PicaM2U": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      8.9,
+      13.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Elúltimobaile.Θ": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      10.4,
+      14.3,
+      0.0,
+      0.0
+    ]
+  },
+  "Trojan.litmus": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      10.8,
+      14.8,
+      0.0,
+      0.0
+    ]
+  },
+  "TemporalShifting.LureRabbitVC": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      11.5,
+      15.2,
+      0.0,
+      0.0
+    ]
+  },
+  "Adastraperaspera.RabbitHouse": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      12.1,
+      15.8,
+      0.0,
+      0.0
+    ]
+  },
+  "Ajourneytothemoonlight.Yesod": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      10.7,
+      14.5,
+      0.0,
+      0.0
+    ]
+  },
+  "RainyHeart.BelieverInYou阿卡姆巫师": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      10.2,
+      12.9,
+      0.0,
+      0.0
+    ]
+  },
+  "Realms.HinkikAHimitsu": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      10.8,
+      14.1,
+      0.0,
+      0.0
+    ]
+  },
+  "ぱぴぷぴぷぴぱ.ころねぽちWith立秋": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      12.3,
+      15.5,
+      0.0,
+      0.0
+    ]
+  },
+  "TriumphRegret.typeMARS": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      9.4,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "SATELLITE.かめりあ": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      9.9,
+      14.6,
+      15.8,
+      0.0
+    ]
+  },
+  "DancewithSilence.かめりあ": {
+    "sub_id": "",
+    "constant": [
+      7.0,
+      10.9,
+      15.2,
+      0.0,
+      0.0
+    ]
+  },
+  "LabyrinthinKowloonWalledWorld.かめりあ": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      11.6,
+      15.4,
+      0.0,
+      0.0
+    ]
+  },
+  "ComputeItWithSomeDevilishAlcoholicSteampunkEngines.かめりあ": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      10.6,
+      15.6,
+      0.0,
+      0.0
+    ]
+  },
+  "ERABYECONNEC10N.かめりあ": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      11.5,
+      15.9,
+      16.5,
+      0.0
+    ]
+  },
+  "DiamondEyes.SYNTHETIC": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      7.5,
+      13.4,
+      0.0,
+      0.0
+    ]
+  },
+  "Bitterblossom.imvi": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      9.6,
+      13.5,
+      0.0,
+      0.0
+    ]
+  },
+  "SilenceisGoldenSpeechisGolden.NIWASHI": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      9.7,
+      15.5,
+      0.0,
+      0.0
+    ]
+  },
+  "FracturedAngel.DJRaisei": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      10.9,
+      15.9,
+      0.0,
+      0.0
+    ]
+  },
+  "JourneywithYou.Iris": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      10.1,
+      13.8,
+      0.0,
+      0.0
+    ]
+  },
+  "SecretIllumination.Yooh": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      10.5,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "InvertedWorld.ARForest": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      11.2,
+      15.4,
+      0.0,
+      0.0
+    ]
+  },
+  "TECHNOPOLIS2085.PRASTIKDANCEFLOOR": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      10.2,
+      14.4,
+      15.7,
+      0.0
+    ]
+  },
+  "テリトリーバトル.ツユ": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      9.1,
+      13.8,
+      15.3,
+      0.0
+    ]
+  },
+  "祈我ら神祖と共に歩む者なり.光吉猛修VS穴山大輔VSKaiVS水野健治VS大国奏音": {
+    "sub_id": "",
+    "constant": [
+      7.5,
+      13.2,
+      15.9,
+      16.5,
+      0.0
+    ]
+  },
+  "Bye.DingerBox": {
+    "sub_id": "bye.DingerBox",
+    "constant": [
+      4.0,
+      9.1,
+      14.9,
+      0.0,
+      0.0
+    ]
+  },
+  "聖夜讃歌.A39沙包P": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      10.1,
+      15.3,
+      0.0,
+      0.0
+    ]
+  },
+  "ストレイソウルアラウンド.みーに": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      10.4,
+      14.5,
+      0.0,
+      0.0
+    ]
+  },
+  "ManifoldHypothesis.cybermisofeattigerlily": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      9.9,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "KMoeVIP.ZxNX": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      8.4,
+      15.7,
+      0.0,
+      0.0
+    ]
+  },
+  "GVNGlitterVomitusandNeon.SaltySaltUnfold33": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      9.5,
+      15.6,
+      0.0,
+      0.0
+    ]
+  },
+  "CrushBETA.shadowbling": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      11.5,
+      15.1,
+      0.0,
+      0.0
+    ]
+  },
+  "Khalid.Dolphin": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      8.2,
+      13.1,
+      0.0,
+      0.0
+    ]
+  },
+  "PANICPARADISE.DJSHIONY": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      11.5,
+      15.4,
+      0.0,
+      0.0
+    ]
+  },
+  "FreakyUndulationsNobleKnightsofTune.JehezukielKURORAK": {
+    "sub_id": "",
+    "constant": [
+      7.0,
+      10.9,
+      15.1,
+      0.0,
+      0.0
+    ]
+  },
+  "QuantumHyperspace.DAAN": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      11.2,
+      14.8,
+      0.0,
+      0.0
+    ]
+  },
+  "ReEndofaDream.umavsモリモリあつし": {
+    "sub_id": "",
+    "constant": [
+      7.5,
+      13.1,
+      15.6,
+      16.4,
+      0.0
+    ]
+  },
+  "BrokenSky.JungoMAX3feat刘佳宜Snow幻影刃shadow": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      8.6,
+      13.2,
+      0.0,
+      0.0
+    ]
+  },
+  "BRAINHACKER.SOMON": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      9.5,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "RetributionCycleofRedemption.Ardolfvs天利": {
+    "sub_id": "",
+    "constant": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "Xenolith.Tatsh": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      8.5,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "ArtificialExistence.JunKuroda": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      10.2,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "IndelibleScar.Noah": {
+    "sub_id": "",
+    "constant": [
+      7.5,
+      11.7,
+      15.3,
+      16.1,
+      0.0
+    ]
+  },
+  "Antithese.Blacklolita": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      11.8,
+      15.2,
+      15.9,
+      0.0
+    ]
+  },
+  "PRAGMATISMRESURRECTION.Laur": {
+    "sub_id": "",
+    "constant": [
+      7.5,
+      12.9,
+      15.6,
+      16.3,
+      0.0
+    ]
+  },
+  "ShineAfter.ADeanJocularACE": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      9.9,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Bloom.麻团qwqtarg": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      11.2,
+      14.9,
+      0.0,
+      0.0
+    ]
+  },
+  "幽世桔梗.Capchiifeatまるもこ": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      10.1,
+      14.8,
+      0.0,
+      0.0
+    ]
+  },
+  "千紫万紅.r0yvsWABI": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      12.1,
+      15.6,
+      0.0,
+      0.0
+    ]
+  },
+  "明鏡烈火.MUEvsRekuMochizuki": {
+    "sub_id": "",
+    "constant": [
+      6.5,
+      11.3,
+      15.8,
+      0.0,
+      0.0
+    ]
+  },
+  "今天不是明天.PIKASONICfeat兰音Reine": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      8.5,
+      13.5,
+      0.0,
+      0.0
+    ]
+  },
+  "iLArtifact.Link0": {
+    "sub_id": "iLArtifact.Link0",
+    "constant": [
+      5.5,
+      10.5,
+      15.5,
+      0.0,
+      0.0
+    ]
+  },
+  "atruthseekerCommunicationwithUtopiawillbelost.kuro": {
+    "sub_id": "atruthseekerCommunicationwithUtopiawillbelost.kuro",
+    "constant": [
+      7.5,
+      12.9,
+      15.8,
+      0.0,
+      0.0
+    ]
+  },
+  "Cuvism.Fl00tvsHalv": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      12.1,
+      13.9,
+      16.4,
+      0.0
+    ]
+  },
+  "BoundedQuietude.FiniteLimitvsSiLiS": {
+    "sub_id": "",
+    "constant": [
+      7.0,
+      7.5,
+      15.9,
+      0.0,
+      0.0
+    ]
+  },
+  "君往何处QuoVadis.M2U": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      8.6,
+      14.5,
+      0.0,
+      0.0
+    ]
+  },
+  "暗夜苏醒REANIMATE.Warak": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      12.8,
+      15.4,
+      0.0,
+      0.0
+    ]
+  },
+  "Grimheart.Puru": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      8.9,
+      13.8,
+      0.0,
+      0.0
+    ]
+  },
+  "月詠に鳴る.Feryquitousfeat藍月なくる": {
+    "sub_id": "",
+    "constant": [
+      6.0,
+      11.1,
+      14.7,
+      15.5,
+      0.0
+    ]
+  },
+  "NightTheater.わかどり": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      10.6,
+      14.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Spotlight.Ardolf": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      9.9,
+      14.3,
+      0.0,
+      0.0
+    ]
+  },
+  "ATHAZA.LeaF": {
+    "sub_id": "",
+    "constant": [
+      8.1,
+      12.9,
+      15.5,
+      16.2,
+      0.0
+    ]
+  },
+  "心の記憶.A39沙包P": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      9.1,
+      13.3,
+      0.0,
+      0.0
+    ]
+  },
+  "Ramification.rareguyReina": {
+    "sub_id": "",
+    "constant": [
+      5.0,
+      10.4,
+      14.7,
+      0.0,
+      0.0
+    ]
+  },
+  "DerRichter.Ωμεγα": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      11.4,
+      15.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Thrashforce.KAHvsE0ri4": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      10.7,
+      15.2,
+      0.0,
+      0.0
+    ]
+  },
+  "Originally.SNKSMizku": {
+    "sub_id": "",
+    "constant": [
+      1.0,
+      9.3,
+      14.5,
+      0.0,
+      0.0
+    ]
+  },
+  "黄金之城GOLDTOWN.MEMME": {
+    "sub_id": "",
+    "constant": [
+      2.0,
+      10.2,
+      14.8,
+      0.0,
+      0.0
+    ]
+  },
+  "双重间谍DoubleAgent.WavAV": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      11.8,
+      15.5,
+      0.0,
+      0.0
+    ]
+  },
+  "幻影鬼魅PLEASE.R300K": {
+    "sub_id": "",
+    "constant": [
+      5.5,
+      9.6,
+      15.1,
+      16.4,
+      0.0
+    ]
+  },
+  "Schadenfreude.ZxNX": {
+    "sub_id": "",
+    "constant": [
+      4.5,
+      11.1,
+      15.2,
+      0.0,
+      0.0
+    ]
+  },
+  "Letempsperdu.Daison": {
+    "sub_id": "",
+    "constant": [
+      4.0,
+      9.1,
+      12.5,
+      0.0,
+      0.0
+    ]
+  },
+  "FixationsTowardtheStars.Foodbot": {
+    "sub_id": "",
+    "constant": [
+      3.5,
+      10.8,
+      14.5,
+      0.0,
+      0.0
+    ]
+  },
+  "Valorstarcross.LundyvsWyvren": {
+    "sub_id": "valorstarcross.LundyvsWyvren",
+    "constant": [
+      6.5,
+      12.5,
+      15.6,
+      0.0,
+      0.0
+    ]
+  },
+  "Comet.CNHKSSfeat符白牙": {
+    "sub_id": "",
+    "constant": [
+      3.0,
+      10.4,
+      13.7,
+      0.0,
+      0.0
+    ]
+  }
+}

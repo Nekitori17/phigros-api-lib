@@ -1,7 +1,11 @@
 import struct
-from typing import Union
-from PyTypes.Record import Record
-from Tools.LoadJson import load_song_info, load_chart_constants
+from typing import Union, TypedDict
+from PhigrosAPILib.PyTypes.Record import Record
+from PhigrosAPILib.Tools.LoadJson import load_song_info, load_chart_constants
+
+class ScoreAcc(TypedDict):
+  score: int
+  acc: float
 
 difficulty = ["EZ", "HD", "IN", "AT", "Legacy"]
 chart_constant_list = load_chart_constants()
@@ -29,7 +33,7 @@ class ByteReader:
     self.position += length + 1
     return self.data[self.position - length : self.position].decode("utf-8", errors="ignore")
 
-  def read_score_acc(self):
+  def read_score_acc(self) -> ScoreAcc:
     self.position += 8
     scoreAcc = struct.unpack("if", self.data[self.position - 8 : self.position])
     return {"score": scoreAcc[0], "acc": scoreAcc[1]}
@@ -46,24 +50,28 @@ class ByteReader:
     self.position += 1
 
     if song_id in chart_constant_list:
-      diffs = chart_constant_list[song_id]
+      constants = chart_constant_list[song_id]
 
-      records: Union[list[Record], list] = []
-      for level in range(len(diffs["constant"])):
+      records: Union[list[Record], None] = []
+      for level in range(len(constants)):
         if get_bool(exists, level):
-          scoreAcc: Record = self.read_score_acc()
-          scoreAcc["song_id"] = song_id
-          scoreAcc["song_name"] = song_info_list[song_id]["song_name"]
-          scoreAcc["song_artist"] = song_info_list[song_id]["song_artist"]
-          scoreAcc["level"] = difficulty[level]
-          scoreAcc["difficulty"] = diffs["constant"][level]
-          scoreAcc["rks"] = (scoreAcc["acc"] - 55) / 45
-          scoreAcc["rks"] = (
-            scoreAcc["rks"] * scoreAcc["rks"] * scoreAcc["difficulty"]
-          )
-          scoreAcc["fc"] = get_bool(fc, level)
-          records.append(scoreAcc)
+          score_acc = self.read_score_acc()
+          pre_rks = (score_acc["acc"] - 55) / 45
+
+          record: Record = {
+            "id": song_id,
+            "name": song_info_list[song_id]["name"],
+            "artist": song_info_list[song_id]["artist"],
+            "level": difficulty[level],
+            "constant": constants[level],
+            "score": score_acc["score"],
+            "acc": score_acc["acc"],
+            "rks": pre_rks * pre_rks * constants[level],
+            "fc": get_bool(fc, level),
+          }
+         
+          records.append(record)
     else:
-      records = []
+      records = None
     self.position = end_position
     return records

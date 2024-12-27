@@ -1,11 +1,11 @@
 from typing import TypedDict
 
 class Record(TypedDict):
-  song_id: str
-  song_name: str
-  song_artist: str
+  id: str
+  name: str
+  artist: str
   level: int
-  difficulty: float
+  constant: float
   fc: bool
   rks: float
   score: int

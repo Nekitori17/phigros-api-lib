@@ -1,6 +1,6 @@
 import json
 import os
-from PyTypes.SongInfo import *
+from PhigrosAPILib.PyTypes.SongInfo import *
 
 def get_path(path: str) -> str:
   file_path = os.path.join(
@@ -11,7 +11,7 @@ def get_path(path: str) -> str:
   return os.path.normpath(file_path)
 
 def load_chart_constants():
-  chart_constants: dict[str, ChartConstants] = {}
+  chart_constants: dict[str, list[float]] = {}
 
   with open(get_path("../data/constants.json"), "r", encoding="utf-8") as fl:
     chart_constants = json.load(fl)

@@ -8,7 +8,8 @@ PHIGROS_TAPTAP_HEADER = {
   "Accept": "application/json",
 }
 
-PHIGROS_FANDOM_WIKI_SONG_DATA_URL = "https://phigros.fandom.com/wiki/Phigros_Wiki:Song_Data?action=edit"
+PHIGROS_SONG_INFO = "https://raw.githubusercontent.com/7aGiven/Phigros_Resource/refs/heads/info/info.tsv"
+PHIGROS_CONSTANTS = "https://raw.githubusercontent.com/7aGiven/Phigros_Resource/refs/heads/info/difficulty.tsv"
 
 DECRYPT_KEY = base64.b64decode("6Jaa0qVAJZuXkZCLiOa/Ax5tIZVu+taKUN1V1nqwkks=")
 DECRYPT_IV = base64.b64decode("Kk/wisgNYwcAV8WVGMgyUw==")

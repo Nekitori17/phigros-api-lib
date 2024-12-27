@@ -1,12 +1,13 @@
-import json
 import struct
 import base64
 import requests
-from Important import *
-from PyTypes.Player import PlayerInfo
-from PyTypes.Profile import PlayerProfile
-from PyTypes.Summary import PlayerSummary
-from Tools.DecryptSave import decrypt_record
+from PhigrosAPILib.Important import *
+from PhigrosAPILib.PyTypes.Record import Record
+from PhigrosAPILib.PyTypes.Best import BestRecords
+from PhigrosAPILib.PyTypes.Player import PlayerInfo
+from PhigrosAPILib.PyTypes.Summary import PlayerSummary
+from PhigrosAPILib.PyTypes.Profile import PlayerProfile
+from PhigrosAPILib.Tools.DecryptSave import decrypt_records
 
 class PhigrosAPI:
   def __init__(self, session_token: str):
@@ -17,6 +18,7 @@ class PhigrosAPI:
     self.user_info = self.get_user()
     self.save = self.get_save()
     self.player_summary = self.get_player_summary()
+    self.records = self.get_records()
 
   def get_user(self):
     response = requests.get(
@@ -68,9 +70,29 @@ class PhigrosAPI:
     
     return data_save_list[0]
 
-  def get_record(self):
-    return decrypt_record(self.save["gameFile"]["url"])
+  def get_records(self):
+    records = decrypt_records(self.save["gameFile"]["url"])
+    return records
   
+  def get_best_records(self, overflow: int = 0):
+    records = self.records
+
+    phi_records: list[Record] = []
+    for record in records:
+      if record["score"] == 1000000:
+        phi_records.append(record)
+
+    phi_records.sort(key=lambda x: x["rks"], reverse=True)
+
+    best_phi_records = phi_records[0]
+
+    records.remove(best_phi_records)
+    records.sort(key=lambda x: x["rks"], reverse=True)
+
+    best_records: BestRecords = {
+      "phi": best_phi_records,
+      "b19": records[0:19],
+      "overflow": records[19:19 + overflow]
+    }
   
-client = PhigrosAPI("uucc0dsqyist6aaji8ttji401")
-print(json.dumps(client.get_record(), indent=2))
+    return best_records

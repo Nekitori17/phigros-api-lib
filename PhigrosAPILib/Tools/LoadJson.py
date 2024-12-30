@@ -1,6 +1,6 @@
 import json
 import os
-from PhigrosAPILib.PyTypes.SongInfo import *
+from ..PyTypes.SongInfo import *
 
 def get_path(path: str) -> str:
   file_path = os.path.join(

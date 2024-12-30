@@ -1,5 +1,4 @@
+from PhigrosAPILib.Updater import DataUpdater
 
-from PhigrosAPILib.Updater import Updater
-
-updater = Updater()
+updater = DataUpdater()
 updater.update_all()

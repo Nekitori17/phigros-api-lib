@@ -24,16 +24,16 @@ client.get_best_records(5)                # Best records with overflow of 5
 Update song and chart database
 
 ```bash
-updatePhiDB
+$ > updatePhiDB
 ```
 
 or
 
 ```py
 
-from PhigrosAPILib.Updater import Updater
+from PhigrosAPILib.Updater import DataUpdater
 
-updater = Updater()
+updater = DataUpdater()
 updater.update_all()
 ```
 

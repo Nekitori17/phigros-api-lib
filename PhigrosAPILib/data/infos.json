@@ -216,7 +216,7 @@
       "Su1fuR",
       "Su1fuR",
       "Ctymax vs. 阿爽  fixed by B B M pow",
-      "N/A"
+      ""
     ]
   },
   "NYA.FLuoRiTe姜米條": {
@@ -733,7 +733,7 @@
       "Clutter",
       "Clutter",
       "Clutter",
-      "N/A"
+      ""
     ]
   },
   "NextTime.SaMZIng": {
@@ -799,7 +799,7 @@
       "Su1fuR",
       "Su1fuR",
       "百九十八",
-      "N/A"
+      ""
     ]
   },
   "Chronostasis.黒皇帝": {
@@ -2518,6 +2518,39 @@
       "N/A"
     ]
   },
+  "白と黒のバケモノ.テヅカ": {
+    "name": "白と黒のバケモノ",
+    "artist": "テヅカ",
+    "illustrator": "久世",
+    "charter": [
+      "白",
+      "monochrome ILLUSION",
+      "Simon_Axis",
+      "N/A"
+    ]
+  },
+  "Devotion.Connexio": {
+    "name": "Devotion",
+    "artist": "Connexio",
+    "illustrator": "Shimoruchiko",
+    "charter": [
+      "StupiGGy",
+      "StupiGGy",
+      "Salt",
+      "N/A"
+    ]
+  },
+  "KirakiraNoelStory.RekuMochizuki": {
+    "name": "Kirakira Noel Story!!",
+    "artist": "Reku Mochizuki",
+    "illustrator": "ナナシ",
+    "charter": [
+      "村头村头 CTY Story!!",
+      "头鱼头鱼 MAX Story!!",
+      "N\\erry Xmas 2024",
+      "N/A"
+    ]
+  },
   "Poseidon.1112vsStar": {
     "name": "Ποσειδών",
     "artist": "1112 vs. Star＊",
@@ -2570,7 +2603,8 @@
       "Arenn Saki as \"mAze\"",
       "Arenn Saki as \"myStery\"",
       "XMT as \"eX-MentalisT\"",
-      "CN_115 as \"prediCameNt\""
+      "CN_115 as \"prediCameNt\"",
+      "Arenn Saki as \"lAβyrinS\""
     ]
   },
   "Demiurge.Rabpit": {

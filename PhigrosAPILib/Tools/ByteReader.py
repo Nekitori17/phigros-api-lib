@@ -1,7 +1,7 @@
 import struct
 from typing import Union, TypedDict
-from PhigrosAPILib.PyTypes.Record import Record
-from PhigrosAPILib.Tools.LoadJson import load_song_info, load_chart_constants
+from ..PyTypes.Record import Record
+from .LoadJson import load_song_info, load_chart_constants
 
 class ScoreAcc(TypedDict):
   score: int

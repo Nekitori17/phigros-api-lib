@@ -1,7 +1,7 @@
-from typing import TypedDict
-from PhigrosAPILib.PyTypes.Record import Record
+from .Record import Record
+from typing import TypedDict, Union
 
 class BestRecords(TypedDict):
   phi: Record
   b19: list[Record]
-  overflow: int
+  overflow: Union[list[Record], list]

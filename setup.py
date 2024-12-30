@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
   name="PhigrosAPILib",
-  version="1.2.0",
+  version="1.2.1",
   author="Nekitori17",
   author_email="cuongnguyen286641@gmail.com",
   description="A library for accessing Phigros API",
@@ -12,7 +12,7 @@ setup(
   url="https://github.com/Nekitori17/phigros-api-lib",
   keywords=["Phigros", "API"],
   packages=find_packages(include=["PhigrosAPILib", "PhigrosAPILib.*", "PhigrosAPILib."]),
-  install_requires=["click", "requests", "pycryptodome"],
+  install_requires=["click", "requests", "pycryptodome", "colorama"],
   package_data={"PhigrosAPILib": ["data/*.json"]},
   entry_points={
     "console_scripts": [
@@ -20,7 +20,7 @@ setup(
     ]
   },
   classifiers=[
-    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Programming Language :: Python :: 3.7",

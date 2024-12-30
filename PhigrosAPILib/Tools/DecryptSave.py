@@ -1,9 +1,9 @@
-from PhigrosAPILib.Important import *
+from ..Important import *
+from ..PyTypes.Record import Record
+from .ByteReader import ByteReader
+from .ReadFile import SaveFileReader
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
-from PhigrosAPILib.PyTypes.Record import Record
-from PhigrosAPILib.Tools.ByteReader import ByteReader
-from PhigrosAPILib.Tools.ReadFile import SaveFileReader
 
 def decrypt_records(url: str):
   reader_save_file = SaveFileReader(url)

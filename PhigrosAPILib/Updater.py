@@ -1,8 +1,8 @@
 import os
 import json
 import requests
-from PhigrosAPILib.Important import *
-from PhigrosAPILib.PyTypes.SongInfo import *
+from .Important import *
+from .PyTypes.SongInfo import *
 
 
 def get_path(path: str) -> str:
@@ -13,7 +13,7 @@ def get_path(path: str) -> str:
 
   return os.path.normpath(file_path)
 
-class Updater:
+class DataUpdater:
   def __init__(self):
     pass
 

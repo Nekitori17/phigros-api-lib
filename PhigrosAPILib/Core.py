@@ -1,13 +1,13 @@
 import struct
 import base64
 import requests
-from PhigrosAPILib.Important import *
-from PhigrosAPILib.PyTypes.Record import Record
-from PhigrosAPILib.PyTypes.Best import BestRecords
-from PhigrosAPILib.PyTypes.Player import PlayerInfo
-from PhigrosAPILib.PyTypes.Summary import PlayerSummary
-from PhigrosAPILib.PyTypes.Profile import PlayerProfile
-from PhigrosAPILib.Tools.DecryptSave import decrypt_records
+from .Important import *
+from .PyTypes.Record import Record
+from .PyTypes.Best import BestRecords
+from .PyTypes.Player import PlayerInfo
+from .PyTypes.Profile import PlayerProfile
+from .PyTypes.Summary import PlayerSummary
+from .Tools.DecryptSave import decrypt_records
 
 class PhigrosAPI:
   def __init__(self, session_token: str):

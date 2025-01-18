@@ -1,6 +1,7 @@
 import struct
 from typing import Union, TypedDict
 from ..PyTypes.Record import Record
+from ..PyTypes.Progress import PlayerProgress
 from .LoadJson import load_song_info, load_chart_constants
 
 class ScoreAcc(TypedDict):
@@ -9,36 +10,67 @@ class ScoreAcc(TypedDict):
 
 difficulty = ["EZ", "HD", "IN", "AT", "Legacy"]
 chart_constant_list = load_chart_constants()
-song_info_list  = load_song_info()
+song_info_list = load_song_info()
 
 def get_bool(num, index):
   return bool(num & 1 << index)
 
 class ByteReader:
-  position: int = 0
-
   def __init__(self, data: bytes):
     self.data = data
+    self.position = 0
+    self.bit_position = 0
 
-  def read_var_short(self):
+  def read_bool(self) -> bool:
+    if self.bit_position == 8:
+      self.bit_position = 0
+      self.position += 1
+    result = (self.data[self.position] & (1 << self.bit_position)) != 0
+    self.bit_position += 1
+    return result
+
+  def align_to_byte(self):
+    if self.bit_position:
+      self.position += 1
+      self.bit_position = 0
+
+  def read_byte(self) -> int:
+    self.align_to_byte()
+    result = self.data[self.position]
+    self.position += 1
+    return result
+
+  def read_short(self) -> int:
+    self.align_to_byte()
+    result = self.data[self.position] + (self.data[self.position + 1] << 8)
+    self.position += 2
+    return result
+
+  def read_var_short(self) -> int:
+    self.align_to_byte()
     num = self.data[self.position]
     if num < 128:
       self.position += 1
-    else:
-      self.position += 2
-    return num
+      return num
+    result = (num & 0x7F) + (self.data[self.position + 1] << 7)
+    self.position += 2
+    return result
 
-  def read_string(self):
-    length = self.data[self.position]
-    self.position += length + 1
-    return self.data[self.position - length : self.position].decode("utf-8", errors="ignore")
+  def read_string(self) -> str:
+    length = self.read_var_short()
+    if length == 0:
+      return ''
+    result = self.data[self.position:self.position + length].decode('utf-8', errors='ignore')
+    self.position += length
+    return result
 
   def read_score_acc(self) -> ScoreAcc:
+    self.align_to_byte()
     self.position += 8
-    scoreAcc = struct.unpack("if", self.data[self.position - 8 : self.position])
-    return {"score": scoreAcc[0], "acc": scoreAcc[1]}
+    score_acc = struct.unpack("if", self.data[self.position - 8:self.position])
+    return {"score": score_acc[0], "acc": score_acc[1]}
 
-  def read_record(self, song_id: str):
+  def read_record(self, song_id: str) -> Union[list[Record], None]:
     end_position = self.position + self.data[self.position] + 1
 
     self.position += 1
@@ -51,8 +83,8 @@ class ByteReader:
 
     if song_id in chart_constant_list:
       constants = chart_constant_list[song_id]
-
-      records: Union[list[Record], None] = []
+      records: list[Record] = []
+      
       for level in range(len(constants)):
         if get_bool(exists, level):
           score_acc = self.read_score_acc()
@@ -69,9 +101,32 @@ class ByteReader:
             "rks": pre_rks * pre_rks * constants[level],
             "fc": get_bool(fc, level),
           }
-         
           records.append(record)
-    else:
-      records = None
+      
+      self.position = end_position
+      return records
+    
     self.position = end_position
-    return records
+    return None
+
+  def read_progress(self) -> PlayerProgress:
+    progress: PlayerProgress = {
+      "is_first_run": self.read_bool(),
+      "legacy_chapter_finished": self.read_bool(),
+      "already_show_collection_tip": self.read_bool(),
+      "already_show_auto_unlock_in_tip": self.read_bool(),
+      "completed": self.read_string(),
+      "song_update_info": self.read_byte(),
+      "challenge_mode_rank": self.read_short(),
+      "money": [self.read_var_short() for _ in range(5)],
+      "unlock_flag_of_spasmodic": self.read_byte(),
+      "unlock_flag_of_igallta": self.read_byte(),
+      "unlock_flag_of_rrharil": self.read_byte(),
+      "flag_of_song_record_key": self.read_byte(),
+      "random_version_unlocked": self.read_byte(),
+      "chapter8_unlock_begin": self.read_bool(),
+      "chapter8_unlock_second_phase": self.read_bool(),
+      "chapter8_passed": self.read_bool(),
+      "chapter8_song_unlocked": self.read_byte()
+    }
+    return progress

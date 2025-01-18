@@ -2,12 +2,12 @@ import struct
 import base64
 import requests
 from .Important import *
+from .Tools.DecryptSave import *
 from .PyTypes.Record import Record
 from .PyTypes.Best import BestRecords
 from .PyTypes.Player import PlayerInfo
 from .PyTypes.Profile import PlayerProfile
 from .PyTypes.Summary import PlayerSummary
-from .Tools.DecryptSave import decrypt_records
 
 class PhigrosAPI:
   def __init__(self, session_token: str):
@@ -18,7 +18,7 @@ class PhigrosAPI:
     self.user_info = self.get_user()
     self.save = self.get_save()
     self.player_summary = self.get_player_summary()
-    self.records = self.get_records()
+    self.player_progress = self.get_player_progress()
 
   def get_user(self):
     response = requests.get(
@@ -71,11 +71,17 @@ class PhigrosAPI:
     return data_save_list[0]
 
   def get_records(self):
-    records = decrypt_records(self.save["gameFile"]["url"])
+    decrypted = DecryptSave(self.save["gameFile"]["url"])
+    records = decrypted.decrypt_records()
     return records
   
+  def get_player_progress(self):
+    decrypted = DecryptSave(self.save["gameFile"]["url"])
+    player_progress = decrypted.decrypt_progress()
+    return player_progress
+  
   def get_best_records(self, overflow: int = 0):
-    records = self.records
+    records = self.get_records()
 
     phi_records: list[Record] = []
     for record in records:

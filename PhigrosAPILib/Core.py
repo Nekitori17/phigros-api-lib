@@ -104,17 +104,26 @@ class PhigrosAPI:
     """Retrieves and decrypts the player's progress data from the save file.
 
     Returns:
-        dict: A dictionary containing the player's progress data.
+        PlayerProgress: A dictionary containing the player's progress information.
     """
     decrypted = DecryptSave(self.save["gameFile"]["url"])
     player_progress = decrypted.decrypt_progress()
     return player_progress
   
   def get_best_records(self, overflow: int = 0):
-    """Retrieves and organizes the player's best records.
+    """Retrieves the player's best records, categorized into Phi, top 27, and overflow.
+
+    Args:
+        overflow (int, optional): The number of records to include in the overflow category. Defaults to 0.
 
     Returns:
-        BestRecords: A dictionary containing the player's best records, categorized into phi, b27, and overflow.
+        BestRecords: A dictionary containing three lists of records:
+            - phi: A list of Phigros records (perfect scores).
+            - b27: A list of the top 27 records (excluding Phigros records).
+            - overflow: A list of additional records beyond the top 27, specified by the `overflow` parameter.
+
+    Note:
+        Records are sorted by their RKS value in descending order.
     """
     records = self.get_records()
 

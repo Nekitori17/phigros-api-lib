@@ -11,7 +11,12 @@ from .PyTypes.Summary import PlayerSummary
 
 class PhigrosAPI:
   def __init__(self, session_token: str):
-    self.httpHeaders = {
+    """Initializes the PhigrosAPI client.
+
+    Args:
+        session_token (str): The session token from the ".userdata" file (property "sessionToken").
+    """
+    self.__httpHeaders = {
       **PHIGROS_TAPTAP_HEADER,
       "X-LC-Session": session_token
     }
@@ -21,15 +26,25 @@ class PhigrosAPI:
     self.player_progress = self.get_player_progress()
 
   def get_user(self):
+    """Retrieves the user's information from the Phigros API.
+
+    Returns:
+        PlayerInfo: A dictionary containing the user's information.
+    """
     response = requests.get(
       f"{PHIGROS_SERVICE_BASE_URL}/users/me",
-      headers= self.httpHeaders
+      headers= self.__httpHeaders
     )
 
     result: PlayerInfo = response.json()
     return result
   
   def get_player_summary(self):
+    """Retrieves and parses the player's summary data from the save file.
+
+    Returns:
+        PlayerSummary: A dictionary containing the player's summary information.
+    """
     result = self.save
     username = self.user_info["nickname"]
     updatedAt = result["updatedAt"]
@@ -58,9 +73,14 @@ class PhigrosAPI:
     return player_summary
 
   def get_save(self):
+    """Retrieves the player's save data from the Phigros API.
+
+    Returns:
+        PlayerProfile: A dictionary containing the player's save data.
+    """
     response = requests.get(
       f"{PHIGROS_SERVICE_BASE_URL}/classes/_GameSave",
-      headers=self.httpHeaders,
+      headers=self.__httpHeaders,
       params={"limit": 1}
     )
 
@@ -71,16 +91,31 @@ class PhigrosAPI:
     return data_save_list[0]
 
   def get_records(self):
+    """Retrieves and decrypts the player's records from the save file.
+
+    Returns:
+        list[Record]: A list of dictionaries, each containing a record's information.
+    """
     decrypted = DecryptSave(self.save["gameFile"]["url"])
     records = decrypted.decrypt_records()
     return records
   
   def get_player_progress(self):
+    """Retrieves and decrypts the player's progress data from the save file.
+
+    Returns:
+        dict: A dictionary containing the player's progress data.
+    """
     decrypted = DecryptSave(self.save["gameFile"]["url"])
     player_progress = decrypted.decrypt_progress()
     return player_progress
   
   def get_best_records(self, overflow: int = 0):
+    """Retrieves and organizes the player's best records.
+
+    Returns:
+        BestRecords: A dictionary containing the player's best records, categorized into phi, b27, and overflow.
+    """
     records = self.get_records()
 
     phi_records: list[Record] = [record for record in records if record["score"] == 1000000]

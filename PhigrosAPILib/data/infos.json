@@ -89,7 +89,7 @@
   },
   "混乱Confusion.OnlyMyBlackScore": {
     "name": "混乱-Confusion",
-    "artist": "OnlyMyBlackScore",
+    "artist": "Only My Black Score",
     "illustrator": "L-sp4",
     "charter": [
       "StR-1",
@@ -2573,6 +2573,39 @@
       "N/A"
     ]
   },
+  "贝多芬祝福BeethovenBlessing.Nauts": {
+    "name": "贝多芬祝福 (Beethoven Blessing)",
+    "artist": "Nauts",
+    "illustrator": "RM Design Team (青鸟 modified)",
+    "charter": [
+      "StupiGGy",
+      "Blessing beyond myself.",
+      "Salt feat. XMT小咩兔",
+      "N/A"
+    ]
+  },
+  "インマイマインド.レシオP": {
+    "name": "インマイマインド",
+    "artist": "レシオP",
+    "illustrator": "すずか爆弾",
+    "charter": [
+      "Salt",
+      "Salt",
+      "ネルサン (I make charts slowly)",
+      "N/A"
+    ]
+  },
+  "ニライカナイNiraicA_naiMix.roopfromSTR": {
+    "name": "ニライカナイ (NiraicA_nai Mix)",
+    "artist": "roop from STR",
+    "illustrator": "3z",
+    "charter": [
+      "Barbarianerman",
+      "Ctymax respect for STAR TRACK in 2008",
+      "Ctymax respect for STAR TRACK in 2008",
+      "N/A"
+    ]
+  },
   "Poseidon.1112vsStar": {
     "name": "Ποσειδών",
     "artist": "1112 vs. Star＊",
@@ -2581,7 +2614,7 @@
       "Jαckψ a.k.a JKy",
       "Jαckψ",
       "Jαckψ feat. Βαρβαροςαντρας",
-      "N/A"
+      "上班摸大鱼 a.k.a. 海洋咩兔"
     ]
   },
   "WATER.A39沙包P": {
@@ -2670,7 +2703,7 @@
       "TimiTini",
       "TimiTini",
       "阿爽 eat Ctymax",
-      "N/A"
+      "StupiGGy"
     ]
   },
   "AfterDawn.S9ryne": {

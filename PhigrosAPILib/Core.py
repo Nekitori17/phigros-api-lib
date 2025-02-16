@@ -1,7 +1,7 @@
 import struct
 import base64
 import requests
-from .Important import *
+from .Constants import *
 from .Tools.DecryptSave import *
 from .PyTypes.Record import Record
 from .PyTypes.Best import BestRecords

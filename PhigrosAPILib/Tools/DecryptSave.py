@@ -1,4 +1,4 @@
-from ..Important import *
+from ..Constants import *
 from .ByteReader import ByteReader
 from ..PyTypes.Record import Record
 from .ReadFile import SaveFileReader

@@ -1,7 +1,7 @@
 import os
 import json
 import requests
-from .Important import *
+from .Constants import *
 from .PyTypes.SongInfo import *
 
 

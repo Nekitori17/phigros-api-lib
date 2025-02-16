@@ -83,22 +83,18 @@ class PhigrosAPI:
   def get_best_records(self, overflow: int = 0):
     records = self.get_records()
 
-    phi_records: list[Record] = []
-    for record in records:
-      if record["score"] == 1000000:
-        phi_records.append(record)
-
+    phi_records: list[Record] = [record for record in records if record["score"] == 1000000]
     phi_records.sort(key=lambda x: x["rks"], reverse=True)
+    best_phi_records = phi_records[:3]
 
-    best_phi_records = phi_records[0]
-
-    records.remove(best_phi_records)
+    best_phi_set = {id(record) for record in best_phi_records}
+    records = [record for record in records if id(record) not in best_phi_set]
     records.sort(key=lambda x: x["rks"], reverse=True)
 
     best_records: BestRecords = {
       "phi": best_phi_records,
-      "b19": records[0:19],
-      "overflow": records[19:19 + overflow]
+      "b27": records[0:27],
+      "overflow": records[27:27 + overflow]
     }
   
     return best_records

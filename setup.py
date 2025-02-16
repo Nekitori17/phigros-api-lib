@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
   name="PhigrosAPILib",
-  version="1.3.1",
+  version="1.3.5",
   author="Nekitori17",
   author_email="cuongnguyen286641@gmail.com",
   description="A library for accessing Phigros API",

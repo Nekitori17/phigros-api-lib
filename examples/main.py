@@ -1,4 +1,4 @@
-from PhigrosAPILib.Core import PhigrosAPI
+from PhigrosAPILib import PhigrosAPI
 
 client = PhigrosAPI("<<SESSION_TOKEN>>")  # Initialize PhigrosAPI client with session token
 client.save                               # Player raw save data

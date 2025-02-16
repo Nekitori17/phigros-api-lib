@@ -37,5 +37,5 @@ class PlayerProfile(TypedDict):
   name: str
   objectId: str
   summary: str
-  updatedAat: datetime
+  updatedAt: datetime
   user: User
